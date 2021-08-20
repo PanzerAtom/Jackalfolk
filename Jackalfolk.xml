@@ -1,0 +1,98 @@
+<?xml  version="1.0" encoding="utf-8"  ?>
+<elements>
+        <info>
+                <name>Jackalfolk</name>
+                <description></description>
+            <update version="1.0">
+                        <file name="race-Jackalfolk.xml" url=""/>
+                </update>
+        <info>
+<<element name="Jackalfolk" type="Race" source="Homebrew"
+id="ID_PNZRATM_HMBRW_RAJACKALFOLK">
+    <description>
+        <h4>Jackalfolk</h4>
+        <p>Jackalfolk are humanoids that strongly resemble wild jackals, with
+similar heads, tails, legs and fur colouring.
+Jackalfolk do not typically have their own society, as they have
+melded almost perfectly with the other humanoids that inhabit
+the sands they call home, though occasionally one may find a
+secluded sect of them living on their own. These small villages are
+usually centered around a great shrine of one of the gods,
+in most cases that god being Anubis, or whatever god of death may
+call the region their domain. Many Jackalfolk are
+highly religious, even the city-dwelling ones usually having a small
+shrine or token of their patron god in their homes.
+Jackalfolk also like to decorate their bodies with golden
+paint, typically around their eyes, necks, and where
+their limbs meet their torso.</p>
+        <span class="feature">Ability Score Increase.</span>Your 
+Dexterity increases by 2, and your Wisdom score is
+increased by 1<br/>
+        <span class="feature">Age.</span>Jackalfolk have somewhat longer lifespans,
+and grow slower, than humans. Jackalfolk reach physical
+maturity around the age of 20, but many do not die until the
+age of 250. Their fur begins to grey as they
+approach 150 years.<br/>
+        <span class="feature">Alignment.</span>Jackalfolk typically
+lean towards good alignments, though they have free choice.<br/>
+        <span class="feature">Size.</span>Jackalfolk stand between
+6 and 7.5 feet tall and weigh roughly the same as a large
+human.<br/>
+        <span class="feature">Speed.</span>Your base walking
+speed is 30 feet.<br/>
+        <span class="feature">Darkvision</span>Your feral counterpart
+is well suited for hunting at night, and as such your eyes are
+adapted to low light conditions. You can see in dim light within
+60 feet of you as if it were bright light, and in darkness as if
+it were dim light. You can't discern color in darkness, only
+shades of gray.
+        <span class="feature">Animal Senses.</span>Your sense of
+smell and hearing is better than most, granting you advantage
+on Wisdom (Perception), checks involving these senses.<br/>
+        <span class="feature">The Desert Is Your Home.</span>
+Jackalfolk are a desert-living race, and as such are 
+well-adapted to extremely hot weather conditions, droughts, and
+feel more at home in sandy environments. You gain advantage on
+Survival checks made in desert conditions.<br/>
+        </description>
+        <sheet display="true"/>
+        <supports />
+        <setters>
+            <set name="height" modifier="2d10">6.0"</set>
+            <set name="weight" modifier="2d10">120</set>
+        </setters>
+        <rules>
+            <stat name="Dexterity" value="2"/>
+            <stat name="Wisdom" value="1"/>
+            <stat name="Any" value="1"/>
+            <stat name="Innate Speed" value="30"/>
+            <stat name="Vision" id="ID_VISION_DARKVISION" />
+            <stat name="Size" id="ID_SIZE_MEDIUM"/>
+            <stat name="Language" id="ID_LANGUAGE_COMMON"/>
+            <grant type="Racial Trait"
+id="ID_HMBRW_RACIAL_TRAIT_ANIMAL_SENSES" />
+            <grant type="Racial Trait"
+id="ID_HMBRW_RACIAL_TRAIT_THE_DESERT_IS_YOUR_HOME"/>
+        </rules>
+    </element>
+
+        <element name="Animal Senses" type="Racial Trait" source="Homebrew"
+id="ID_HMBRW_RACIAL_TRAIT_ANIMAL_SENSES"/>
+    <description>
+        <p>Your sense of smell and hearing is better than most, granting
+you advantage on Wisdom (Perception), checks involving these senses.</p>
+                </description>
+                <sheet display="true">
+        <element name="The Desert Is Your Home" type="Racial Trait" source="Homebrew"
+id="ID_HMBRW_RACIAL_TRAIT_THE_DESERT_IS_YOUR_HOME"/>
+    <description>
+        <p>Jackalfolk are a desert-living race, and as such are 
+well-adapted to extremely hot weather conditions, droughts, and
+feel more at home in sandy environments. You gain advantage on
+Survival checks made in desert conditions.</p>
+                </description>
+                <sheet display="true"?
+                </sheet>
+    </element>
+</elements>
+        
