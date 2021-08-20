@@ -4,7 +4,7 @@
                 <name>Jackalfolk</name>
                 <description></description>
             <update version="1.0">
-                        <file name="race-Jackalfolk.xml" url=""/>
+                        <file name="race-Jackalfolk.xml" url="https://github.com/PanzerAtom/Jackalfolk"/>
                 </update>
         <info>
 <<element name="Jackalfolk" type="Race" source="Homebrew"
